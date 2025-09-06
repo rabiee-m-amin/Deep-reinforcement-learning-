@@ -73,7 +73,6 @@ TD3 showed:
 Attack probability **p** was tested at **0%, 5%, 10%, 15%, 20%** over **200,000 steps**.  
 Findings:
 - Higher **p** → More allocations to compromised servers
-- QoS and SC degrade as attack frequency increases
 - TD3 maintained adaptability, but performance drop was inevitable with severe disruptions
 
 ---
@@ -95,26 +94,5 @@ To improve robustness, a **server–task prioritization** method was added:
 
 ## 📂 Repository Contents
 
-- `agents/` – Implementations of TD3, SAC, PPO, DDPG  
-- `utils/` – Helper functions  
-- `train_agent.py` – Training loop  
-- `plots/` – Visualization of results  
-- `data/` – Logs and experiment outputs  
-- `docs/` – Detailed methodology and analysis (formatted report)
 
----
-
-## 📜 Citation
-
-If you use this code or methodology in your research, please include the following acknowledgment:
-
-> "This work applies and compares multiple DRL algorithms (TD3, DDPG, PPO, SAC) to an adaptive server–task allocation problem under attack and latency disruptions, introducing a novel flexible allocation strategy for improved resilience."
-
----
-
-## 📧 Contact
-
-Mohamadamin Rabiee  
-rabiee.m.amin@gmail.com  
-[LinkedIn](#) | [Website](#)
 
